@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+sqlmodel
+pymysql
+requests
+python-dotenv
+tiktoken

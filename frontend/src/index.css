@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  /* Your custom Enterprise Blue */
+  --color-brand-blue: #0052CC;
+  --color-brand-dark: #0747A6;
+  --color-brand-bg: #F4F5F7;
+
+  /* You can even extend fonts or shadows here */
+  --shadow-enterprise: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+/* Base styles if you need them */
+@layer base {
+  body {
+    @apply bg-brand-bg text-slate-900;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
